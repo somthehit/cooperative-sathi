@@ -369,7 +369,12 @@ export class OpeningSetupEngine {
   public static getStagingBatches(): StagingBatch[] {
     try {
       if (fs.existsSync(STAGING_FILE)) {
-        return JSON.parse(fs.readFileSync(STAGING_FILE, "utf-8"));
+        const content = fs.readFileSync(STAGING_FILE, "utf-8");
+        const parsed = JSON.parse(content);
+        if (Array.isArray(parsed)) return parsed;
+        if (parsed && typeof parsed === "object" && Array.isArray(parsed.batches)) {
+          return parsed.batches;
+        }
       }
     } catch {}
     return [];
@@ -378,12 +383,14 @@ export class OpeningSetupEngine {
   public static saveStagingBatches(batches: StagingBatch[]): void {
     const dir = path.dirname(STAGING_FILE);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(STAGING_FILE, JSON.stringify(batches, null, 2), "utf-8");
+    const list = Array.isArray(batches) ? batches : [];
+    fs.writeFileSync(STAGING_FILE, JSON.stringify(list, null, 2), "utf-8");
   }
 
   public static getActiveBatch(): StagingBatch | null {
     const batches = this.getStagingBatches();
-    return batches.find((b) => b.status !== "Committed" && b.status !== "Discarded") || batches[0] || null;
+    if (!Array.isArray(batches) || batches.length === 0) return null;
+    return batches.find((b) => b && b.status !== "Committed" && b.status !== "Discarded") || batches[0] || null;
   }
 
   // --- 3. EXCEL / CSV TEMPLATE GENERATOR ---

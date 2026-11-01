@@ -2243,7 +2243,10 @@ export class CoopExcelDB {
 
       let startDataRow = 7;
       let headerEndRow = 5;
-      if (sheetIndex === 4 || sheetIndex === 5) {
+      if (sheetIndex === 2 || sheetIndex === 3) {
+        startDataRow = 6;
+        headerEndRow = 5;
+      } else if (sheetIndex === 4 || sheetIndex === 5) {
         startDataRow = 5;
         headerEndRow = 4;
       } else if (sheetIndex === 6) {
@@ -2271,8 +2274,16 @@ export class CoopExcelDB {
         const row = ws.getRow(r);
         const firstCol = this.extractCellText(row.getCell(1).value);
         const secondCol = this.extractCellText(row.getCell(2).value);
+        const thirdCol = this.extractCellText(row.getCell(3).value);
 
-        if (firstCol.includes("कुल") || firstCol.includes("Total") || firstCol.includes("जम्मा")) {
+        if (
+          firstCol.includes("कुल") ||
+          firstCol.includes("Total") ||
+          firstCol.includes("जम्मा") ||
+          thirdCol.includes("कुल कारोबार") ||
+          thirdCol.includes("Total Assets Turnover") ||
+          thirdCol.includes("Total Liab")
+        ) {
           const tRowVals: any[] = [];
           for (let c = 1; c <= ws.columnCount; c++) {
             const cell = row.getCell(c);
@@ -2294,7 +2305,7 @@ export class CoopExcelDB {
           if (str || num !== null) hasContent = true;
           rowVals.push(num !== null ? num : str);
         }
-        if (hasContent && (firstCol || secondCol)) {
+        if (hasContent && (firstCol || secondCol || thirdCol)) {
           rows.push(rowVals);
         }
       }
