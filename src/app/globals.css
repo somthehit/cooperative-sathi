@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+    --primary: 213 60% 31%;
+    --primary-foreground: 210 40% 98%;
+  }
+
+  html, body {
+    max-width: 100vw;
+    overflow-x: clip;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased min-h-screen;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Hide scrollbar for clean tab bars and pills */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+/* Custom Table Scrollbars */
+.khata-scroll::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.khata-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+.khata-scroll::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+.khata-scroll::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Frozen column and header classes */
+.frozen-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.frozen-col-1 {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+}
+.frozen-col-2 {
+  position: sticky;
+  left: 60px;
+  z-index: 10;
+}
+
+/* Screen Only vs Print Only helpers */
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}
+
+/* Clean Professional Print Architecture for Cooperative Accounting */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 6mm 6mm 8mm 6mm;
+  }
+
+  @page :left {
+    size: A4 landscape;
+  }
+
+  @page :right {
+    size: A4 landscape;
+  }
+
+  /* Hide screen-only chrome, navbars, tabs, search inputs, action buttons, footers */
+  nav,
+  header,
+  footer,
+  aside,
+  .no-print,
+  button:not(.allow-print),
+  input,
+  .navbar,
+  .backdrop-blur-sm,
+  [data-print-hide="true"] {
+    display: none !important;
+  }
+
+  /* Full paper layout reset */
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 7.5pt !important;
+    line-height: 1.2 !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+
+  main {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+  }
+
+  /* Show print-only banners, titles, and signature blocks */
+  .print-only {
+    display: block !important;
+  }
+
+  /* Remove all fixed scrolling, max-heights, shadows and cards */
+  .overflow-x-auto,
+  .overflow-y-auto,
+  .khata-scroll,
+  .max-h-\[70vh\],
+  .max-h-\[80vh\],
+  .max-h-\[90vh\] {
+    overflow: visible !important;
+    max-height: none !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .shadow,
+  .shadow-sm,
+  .shadow-md,
+  .shadow-lg,
+  .shadow-xl,
+  .shadow-2xl {
+    box-shadow: none !important;
+  }
+
+  .rounded-2xl,
+  .rounded-xl,
+  .rounded-lg {
+    border-radius: 0 !important;
+  }
+
+  /* Cooperative Accounting Tables */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 6.8pt !important;
+    page-break-inside: auto !important;
+    color: #000000 !important;
+    table-layout: auto !important;
+  }
+
+  thead {
+    display: table-header-group !important;
+  }
+
+  tfoot {
+    display: table-footer-group !important;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+
+  th, td {
+    border: 1px solid #64748b !important;
+    padding: 2px 3.5px !important;
+    color: #000000 !important;
+    background: transparent !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  th {
+    background-color: #f1f5f9 !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    white-space: pre-line !important;
+    word-break: break-word !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+  }
+
+  /* Total / Footer Row in Print: Light background, pitch black bold text, double bottom border */
+  tfoot,
+  tfoot tr,
+  tfoot td,
+  tfoot th {
+    background-color: #f8fafc !important;
+    color: #000000 !important;
+    font-weight: 900 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  tfoot td,
+  tfoot th {
+    border: 1px solid #475569 !important;
+    border-top: 2px solid #000000 !important;
+    border-bottom: 3px double #000000 !important;
+    color: #000000 !important;
+  }
+
+  tfoot td *,
+  tfoot th * {
+    color: #000000 !important;
+  }
+
+  /* Modal print handling (e.g. Member Passbook) */
+  body:has(.printable-modal) .hide-when-modal-prints {
+    display: none !important;
+  }
+
+  .printable-modal {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .printable-modal-content {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  /* Prevent page breaks inside signature blocks */
+  .print-avoid-break {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+}

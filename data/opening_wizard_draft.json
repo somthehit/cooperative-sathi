@@ -1,0 +1,152 @@
+{
+  "step": 1,
+  "scenario": "A_FY_START",
+  "goLiveDateBs": "२०८३/०४/०१",
+  "goLiveDateAd": "2026-07-16",
+  "fiscalYear": "२०८३/८४",
+  "profile": {
+    "nameNep": "",
+    "regNo": "",
+    "panNo": "",
+    "address": ""
+  },
+  "ledgers": [
+    {
+      "code": "80",
+      "nameNep": "८० नगद मौज्दात (Cash in Hand)",
+      "nameEng": "Cash on Hand",
+      "category": "ASSET",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "90",
+      "nameNep": "९० बैंक मौज्दात (Bank Accounts)",
+      "nameEng": "Bank Accounts",
+      "category": "ASSET",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "100",
+      "nameNep": "१०० लगानी हिसाब (Investments)",
+      "nameEng": "Investments - Shares/Securities",
+      "category": "ASSET",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "110",
+      "nameNep": "११० सदस्य ऋण लगानी (Member Loans Outstanding)",
+      "nameEng": "Member Loans Outstanding",
+      "category": "ASSET",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "120",
+      "nameNep": "१२० पाउनुपर्ने ब्याज तथा आय (Receivables & Accrued Interest)",
+      "nameEng": "Receivables & Accrued Interest",
+      "category": "ASSET",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "130",
+      "nameNep": "१३० स्थिर सम्पत्ति (Fixed Assets)",
+      "nameEng": "Fixed Assets",
+      "category": "ASSET",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "140",
+      "nameNep": "१४० अन्य चालू सम्पत्ति तथा धरौटी (Other Current Assets & Deposits)",
+      "nameEng": "Other Current Assets & Deposits",
+      "category": "ASSET",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "10",
+      "nameNep": "१० सदस्य शेयर पुँजी (Member Share Capital)",
+      "nameEng": "Member Share Capital",
+      "category": "EQUITY",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "20",
+      "nameNep": "२० जगेडा तथा अन्य कोषहरू (Reserves & Surplus Funds)",
+      "nameEng": "Reserves & Surplus Funds",
+      "category": "EQUITY",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "30",
+      "nameNep": "३० सदस्य बचत निक्षेप (Member Savings Deposits)",
+      "nameEng": "Member Savings Deposits",
+      "category": "LIABILITY",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "40",
+      "nameNep": "४० बाह्य ऋण तथा सापट दायित्व (External Borrowings)",
+      "nameEng": "External Borrowings",
+      "category": "LIABILITY",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "50",
+      "nameNep": "५० पुँजीगत तथा सञ्चालन अनुदान (Grants & Subsidies)",
+      "nameEng": "Grants & Subsidies",
+      "category": "LIABILITY",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "60",
+      "nameNep": "६० भुक्तानी दिनुपर्ने हिसाब (Accounts Payable / Creditors)",
+      "nameEng": "Accounts Payable",
+      "category": "LIABILITY",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "70",
+      "nameNep": "७० अन्य दायित्व तथा व्यवस्थाहरू (Other Current Liabilities & Provisions)",
+      "nameEng": "Other Current Liabilities",
+      "category": "LIABILITY",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    },
+    {
+      "code": "999",
+      "nameNep": "९९९ प्रारम्भिक मौज्दात फरक सस्पेन्स (Opening Balance Suspense)",
+      "nameEng": "Opening Balance Difference Suspense",
+      "category": "SUSPENSE",
+      "dr": 0,
+      "cr": 0,
+      "isCustom": false
+    }
+  ],
+  "suspenseReason": "",
+  "cashBankConfirmed": false
+}

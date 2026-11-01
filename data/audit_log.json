@@ -1,0 +1,170 @@
+[
+  {
+    "timestamp": "2026-11-01T04:11:56.117Z",
+    "user": "प्रबन्धक / मुख्य प्रशासक (admin)",
+    "action": "TRANSACTION_RESET_PURGE",
+    "description": "प्रशासक प्रबन्धक / मुख्य प्रशासक (admin) द्वारा सम्पूर्ण कारोबार रिसेट गरियो। 0 सदस्यहरूको व्यक्तिगत KYC विवरण अक्षुण्ण राखियो। (कारण: उदा: परीक्षण तथा डेमो कारोबारहरू हटाएर वास्तविक प्रारम्भिक मौज्दात प्रविष्ट गर्न लागिएको।)",
+    "backupFile": "pre_transaction_reset_2026-11-01T04-11-54-440Z.xlsx"
+  },
+  {
+    "timestamp": "2026-10-31T18:28:13.643Z",
+    "user": "MidYear Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T18:28:13.537Z",
+    "user": "Admin User",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_REOPEN_ROLLBACK",
+    "description": "प्रशासक Admin User द्वारा प्रारम्भिक मौज्दात पुनः खोलियो (कारण: Need to add missing branch loan balances before final audit)"
+  },
+  {
+    "timestamp": "2026-10-31T18:28:13.487Z",
+    "user": "System Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T18:15:15.359Z",
+    "user": "admin",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_REOPEN_ROLLBACK",
+    "description": "प्रशासक admin द्वारा प्रारम्भिक मौज्दात पुनः खोलियो (कारण: Reopening setup for E2E testing validation workflow)"
+  },
+  {
+    "timestamp": "2026-10-31T18:13:29.527Z",
+    "user": "MidYear Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T18:13:29.331Z",
+    "user": "Admin User",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_REOPEN_ROLLBACK",
+    "description": "प्रशासक Admin User द्वारा प्रारम्भिक मौज्दात पुनः खोलियो (कारण: Need to add missing branch loan balances before final audit)"
+  },
+  {
+    "timestamp": "2026-10-31T18:13:29.222Z",
+    "user": "System Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T17:53:31.171Z",
+    "user": "admin",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_REOPEN_ROLLBACK",
+    "description": "प्रशासक admin द्वारा प्रारम्भिक मौज्दात पुनः खोलियो (कारण: Audit Amendment & New Account Addition)"
+  },
+  {
+    "timestamp": "2026-10-31T17:52:21.101Z",
+    "user": "MidYear Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T17:52:21.034Z",
+    "user": "Admin User",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_REOPEN_ROLLBACK",
+    "description": "प्रशासक Admin User द्वारा प्रारम्भिक मौज्दात पुनः खोलियो (कारण: Need to add missing branch loan balances before final audit)"
+  },
+  {
+    "timestamp": "2026-10-31T17:52:20.999Z",
+    "user": "System Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T17:37:05.553Z",
+    "user": "MidYear Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T17:37:05.473Z",
+    "user": "Admin User",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_REOPEN_ROLLBACK",
+    "description": "प्रशासक Admin User द्वारा प्रारम्भिक मौज्दात पुनः खोलियो (कारण: Need to add missing branch loan balances before final audit)"
+  },
+  {
+    "timestamp": "2026-10-31T17:37:05.433Z",
+    "user": "System Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T17:35:34.924Z",
+    "user": "MidYear Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T17:35:34.846Z",
+    "user": "Admin User",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_REOPEN_ROLLBACK",
+    "description": "प्रशासक Admin User द्वारा प्रारम्भिक मौज्दात पुनः खोलियो (कारण: Need to add missing branch loan balances before final audit)"
+  },
+  {
+    "timestamp": "2026-10-31T17:35:34.799Z",
+    "user": "System Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T17:32:54.365Z",
+    "user": "System Auditor",
+    "fyCode": "२०८३/८४",
+    "action": "OPENING_BALANCE_SETUP_POSTED",
+    "description": "संस्थाको प्रारम्भिक मौज्दात (Go-Live) आधिकारिक रूपमा पोस्ट तथा लक गरियो। कुल सम्पत्ति: रु. 7,000,000, दायित्व: रु. 7,000,000"
+  },
+  {
+    "timestamp": "2026-10-31T17:06:55.006Z",
+    "user": "SuperAdmin",
+    "fyCode": "२०८३/८४",
+    "action": "ROLLBACK_REOPEN_FY",
+    "description": "आर्थिक वर्ष २०८३/८४ पुनः खोलियो। कारण: लेखापरीक्षण प्रतिवेदनमा अन्तिम संशोधन गर्नका लागि आ.व. पुनः खुला गरिएको।"
+  },
+  {
+    "timestamp": "2026-10-31T17:05:01.862Z",
+    "user": "ADMIN",
+    "fyCode": "२०८३/८४",
+    "action": "EXECUTE_YEAR_END_ROLLOVER",
+    "description": "आर्थिक वर्ष undefined बन्द गरी नयाँ आ.व. २०८४/८५ प्रारम्भ गरियो। प्रारम्भिक सम्पत्ति: रु. 14,421,600"
+  },
+  {
+    "timestamp": "2026-10-31T17:04:06.289Z",
+    "user": "ADMIN",
+    "fyCode": "२०८३/८४",
+    "action": "LOCK_FISCAL_YEAR",
+    "description": "आर्थिक वर्ष २०८३/८४ लेखापरीक्षक सीए. सुवास राज पन्त द्वारा अडिट लक (Audited-Locked) गरियो।"
+  },
+  {
+    "timestamp": "2026-10-31T17:04:06.246Z",
+    "user": "ADMIN (admin)",
+    "fyCode": "२०८३/८४",
+    "action": "POST_ADJUSTMENT_VOUCHERS",
+    "description": "स्वीकृत समायोजन भौचरहरू पोस्ट गरियो (0 प्रविष्टिहरू)"
+  },
+  {
+    "timestamp": "2026-10-31T16:56:14.281Z",
+    "user": "ADMIN (admin)",
+    "fyCode": "२०८३/८४",
+    "action": "POST_ADJUSTMENT_VOUCHERS",
+    "description": "स्वीकृत समायोजन भौचरहरू पोस्ट गरियो (6 प्रविष्टिहरू)"
+  }
+]

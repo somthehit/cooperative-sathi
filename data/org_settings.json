@@ -1,0 +1,128 @@
+{
+  "nameNep": "श्री दिपशीखा सहकारी संस्था लि.",
+  "nameEng": "Shree Dipshikha Krisi Cooperative Ltd.",
+  "taglineNep": "नेपाल सहकारी ऐन तथा नेपाल राष्ट्र बैंक मापदण्ड अनुसार स्वचालित ४-खाता प्रणाली",
+  "taglineEng": "Nepal Cooperative 4-Khata Live Excel Core Accounting",
+  "coopType": "बचत तथा ऋण सहकारी संस्था (Savings & Credit Cooperative)",
+  "regNo": "१२३४/०७५/०७६",
+  "panNo": "३०२१४५६७८",
+  "establishedDateBs": "२०७५/०३/१५",
+  "establishedDateAd": "2018-06-29",
+  "regulatoryBody": "सहकारी विभाग / सुदूरपश्चिम प्रदेश सहकारी रजिस्ट्रारको कार्यालय",
+  "province": "सुदूरपश्चिम प्रदेश",
+  "district": "कञ्चनपुर",
+  "palika": "पुनर्वास नगरपालिका",
+  "wardNo": "०२",
+  "tole": "पुनर्वास बजार",
+  "fullAddress": "पुनर्वास, कञ्चनपुर, सुदूरपश्चिम प्रदेश, नेपाल",
+  "phone": "०९९-५८०१२३, ९८५१२३४५६७",
+  "email": "info@nepalcoop.org.np",
+  "website": "https://nepalcoop.org.np",
+  "postBox": "१०१",
+  "fiscalYear": "२०८३/८४",
+  "fiscalYearStartBs": "२०८३/०४/०१",
+  "fiscalYearEndBs": "२०८४/०३/३१",
+  "shareParValue": 100,
+  "minimumSavingsBal": 500,
+  "generalReservePct": 20,
+  "patronageRefundPct": 25,
+  "cooperativeEducationPct": 5,
+  "cooperativePromotionPct": 5,
+  "staffBonusPct": 5,
+  "communityDevelopmentPct": 5,
+  "interestCalcMethod": "दैनिक न्यूनतम मौज्दात विधि (Daily Minimum Balance) / ३६५ दिन",
+  "loanProvisionPassPct": 1,
+  "loanProvisionWatchlistPct": 5,
+  "loanProvisionSubstandardPct": 25,
+  "loanProvisionDoubtfulPct": 50,
+  "loanProvisionLossPct": 100,
+  "depreciationMethod": "WDV",
+  "fixedAssetsDeprPct": 15,
+  "accrualDayBasis": "365",
+  "auditFeeProvision": 25000,
+  "systemGoLiveDateBs": "२०८३/०९/१५",
+  "systemGoLiveDateAd": "2026-07-16",
+  "openingBalanceStatus": "Posted-Locked",
+  "firstFiscalYear": "२०८३/८४",
+  "goLiveScenario": "A_FY_START",
+  "suspenseLedgerBalance": 0,
+  "suspenseLedgerReason": "प्रारम्भिक मौज्दात फरक रु. 50,000 सस्पेन्स खातामा अस्थायी रूपमा समायोजन गरिएको।",
+  "savingsProducts": [
+    {
+      "id": "SAV-01",
+      "nameNep": "साधारण बचत",
+      "nameEng": "General Savings",
+      "rate": 6
+    },
+    {
+      "id": "SAV-02",
+      "nameNep": "मासिक क्रमिक बचत",
+      "nameEng": "Monthly Recurring",
+      "rate": 7.5
+    },
+    {
+      "id": "SAV-03",
+      "nameNep": "मुद्दती बचत (१ वर्ष)",
+      "nameEng": "Fixed Deposit 1-Yr",
+      "rate": 9
+    },
+    {
+      "id": "SAV-04",
+      "nameNep": "बाल बचत",
+      "nameEng": "Child Savings",
+      "rate": 6.5
+    },
+    {
+      "id": "SAV-05",
+      "nameNep": "महिला स्वावलम्बन बचत",
+      "nameEng": "Women Empowerment Savings",
+      "rate": 7
+    }
+  ],
+  "loanProducts": [
+    {
+      "id": "LOAN-01",
+      "nameNep": "कृषि तथा पशुपालन कर्जा",
+      "nameEng": "Agriculture & Livestock Loan",
+      "rate": 11.5
+    },
+    {
+      "id": "LOAN-02",
+      "nameNep": "व्यापारिक तथा व्यवसाय कर्जा",
+      "nameEng": "Business & Trade Loan",
+      "rate": 12.5
+    },
+    {
+      "id": "LOAN-03",
+      "nameNep": "घरघडेरी तथा आवास कर्जा",
+      "nameEng": "Housing & Real Estate Loan",
+      "rate": 13
+    },
+    {
+      "id": "LOAN-04",
+      "nameNep": "आपतकालीन तथा सामाजिक कर्जा",
+      "nameEng": "Emergency & Social Loan",
+      "rate": 10
+    },
+    {
+      "id": "LOAN-05",
+      "nameNep": "हायर पर्चेज / सवारी कर्जा",
+      "nameEng": "Hire Purchase / Vehicle Loan",
+      "rate": 12
+    }
+  ],
+  "signatory1Title": "तयार गर्ने",
+  "signatory1Role": "लेखापाल / क्यासियर",
+  "signatory1Name": "रमेश शर्मा",
+  "signatory2Title": "जाँच्ने",
+  "signatory2Role": "आन्तरिक लेखापरीक्षक",
+  "signatory2Name": "सीता चौधरी",
+  "signatory3Title": "स्वीकृत गर्ने",
+  "signatory3Role": "व्यवस्थापक / अध्यक्ष",
+  "signatory3Name": "हरि प्रसाद जोशी",
+  "logoUrl": "/uploads/org_logo_1793461850455.PNG",
+  "themePrimaryColor": "#1F497D",
+  "updatedAt": "2026-11-01T04:30:22.615Z",
+  "cashBankVerifiedDate": "२०८३/०४/०१",
+  "cashBankVerifiedUser": "Chief Accountant"
+}
